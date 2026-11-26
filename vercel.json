@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "thiep-cuoi-thuy-linh-hoang-thong-final.html",
+      "use": "@vercel/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/thiep-cuoi-thuy-linh-hoang-thong-final.html"
+    }
+  ]
+}
